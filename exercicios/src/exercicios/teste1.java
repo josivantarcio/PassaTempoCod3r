@@ -1,4 +1,4 @@
-package exercicios.conceitosBasicos;
+package exercicios;
 
 
 
