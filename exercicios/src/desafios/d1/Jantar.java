@@ -1,4 +1,4 @@
-package desafios;
+package desafios.d1;
 
 public class Jantar {
 	public static void main(String[] args) {

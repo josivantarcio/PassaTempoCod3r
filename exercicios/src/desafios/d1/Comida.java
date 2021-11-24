@@ -1,4 +1,4 @@
-package desafios;
+package desafios.d1;
 
 public class Comida {
 	String nomeComida;
