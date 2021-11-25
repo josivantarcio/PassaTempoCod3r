@@ -22,6 +22,10 @@ public class Exercicio3 {
 				turma[i][j] = scan.nextDouble();
 			}
 		}
+		
+		for(double[] notasDaTurma : turma) {
+			System.out.println(Arrays.toString(notasDaTurma));
+		}
 
 		scan.close();
 
