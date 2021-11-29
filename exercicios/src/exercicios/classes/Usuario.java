@@ -8,7 +8,7 @@ public class Usuario {
 		Usuario outroUsuario = (Usuario)obj;
 		
 		boolean nome = outroUsuario.nome.equals(this.nome);
-		boolean email = outroUsuario.email.equals(this.email);
+		boolean email = outroUsuario.email.equals(this.email); 
 		
 		return nome && email;
 			
