@@ -9,6 +9,7 @@ public class Mapa {
 	public static void main(String[] args) {
 		Map<Integer, Usuario> registro = new HashMap<>();
 		Scanner scan = new Scanner(System.in);
+		System.out.print("Quantidade de itens: ");
 		int n = scan.nextInt();
 		for (int i = 1; i <= n; i++) {
 			System.out.print("nome da Pessoa: ");
@@ -56,9 +57,11 @@ public class Mapa {
 		 * .remove(k) --> remove o registro pela chave (k)
 		 * .remove(k, v) --> remove o registro pela chave e valor. Caso nao atenda os requisitos, a operação é cancelada.
 		 */
-		System.out.println(registro.remove(1));
+		System.out.println(registro.remove(9));
 		System.out.println(registro.remove(2, new Usuario("pedro")));
 		System.out.println(registro);
+		
+		scan.close();
 		
 	}
 }
