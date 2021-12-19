@@ -1,12 +1,15 @@
 package oo.heranca;
 
-
-
 public class Jogador {
 	int vida = 100;
 	int num = 10;
 	int x;
 	int y;
+	
+	public Jogador(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
 	
 	void atacar(Jogador outroJogador) {
 		int posX = Math.abs(x - outroJogador.x);

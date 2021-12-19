@@ -2,12 +2,9 @@ package oo.heranca;
 
 public class Jogo {
 	public static void main(String[] args) {
-		Heroi heroi = new Heroi();
+		Heroi heroi = new Heroi(10,10);
 		Vilao vilao = new Vilao();
-		
-		heroi.x = 10;
-		heroi.y = 10;
-		
+				
 		vilao.x = 10;
 		vilao.y = 11;
 		
