@@ -6,19 +6,21 @@ import oo.heranca.desafio.Toyota;
 
 public class TesteDrive {
 	public static void main(String[] args) {
-		Ferrari f1 = new Ferrari(200);
-		Carro corolla2020 = new Toyota();
+		Ferrari f1 = new Ferrari(400);
+		//Carro corolla2020 = new Toyota();
 		
+		f1.ligarAr();
+		f1.ligarTurbo();
+		f1.desligarAr();
+		f1.acelerar();
 		f1.acelerar();
 		f1.acelerar();
 		f1.frear();
-	
-		System.out.println(f1.velocidadeAtual);
+		f1.frear();
 		
-		corolla2020.acelerar();
-		corolla2020.frear();
+
 		
-		System.out.println(corolla2020.velocidadeAtual);
+		System.out.println(f1);
 		
 	}
 }
