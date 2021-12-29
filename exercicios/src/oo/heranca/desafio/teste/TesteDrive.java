@@ -18,7 +18,7 @@ public class TesteDrive {
 		f1.frear();
 		f1.frear();
 		
-
+		System.out.println(f1.velocidadeDoAr());
 		
 		System.out.println(f1);
 		
