@@ -10,4 +10,10 @@ public class Produto {
 		this.preco = preco;
 		this.desconto = desconto;
 	}
+
+	@Override
+	public String toString() {
+		double valorFinal = this.preco * (1 - this.desconto);
+		return this.nome + " Valor Final: " + String.format("%.2f", valorFinal) ;
+	}
 }
