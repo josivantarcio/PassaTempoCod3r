@@ -14,10 +14,11 @@ public class Consumidor {
 		Produto produto4 = new Produto("Arroz", 2.70, 0.15);
 		Produto produto5 = new Produto("Feijao", 7.00, 0.10);
 
-		// produto.accept(produto1);
-
 		List<Produto> produtos = Arrays.asList(produto1, produto2, produto3, produto4, produto5);
 		produtos.forEach(ler);
+		
+		Consumer<Produto> ler2 = p2 -> System.out.println(p2.nome);
+		ler2.accept(produto3);
 
 	}
 }
