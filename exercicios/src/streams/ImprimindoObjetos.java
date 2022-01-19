@@ -11,7 +11,7 @@ public class ImprimindoObjetos {
 		
 		System.out.println("\nUsando Stream...");
 		Stream<String> stream = aprovados.stream();
-		stream.forEachOrdered(System.out::println);
+		stream.forEach(System.out::println);
 		
 		System.out.println("\nUsando Iterator...");
 		Iterator<String> iterator = aprovados.iterator();
