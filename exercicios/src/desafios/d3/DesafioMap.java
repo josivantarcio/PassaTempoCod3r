@@ -16,9 +16,9 @@ public class DesafioMap {
 		List<Integer> num = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 		num.stream()
-			.map(Convert.convertBinario) 	//1.
-			.map(Convert.inverter)			//2.
-			.map(Convert.reverter)			//3.
+			.map(Convert.convertBinario)//parte 1
+			.map(Convert.inverter)//parte 2
+			.map(Convert.reverter)//parte 3
 			.forEach(Convert.print);
 	}
 
