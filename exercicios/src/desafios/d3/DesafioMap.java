@@ -7,7 +7,8 @@ public class DesafioMap {
 	public static void main(String[] args) {
 
 		/**
-		 * DESAFIO: 1. Converta para String Binário; 
+		 * DESAFIO: 
+		 * 1. Converta para String Binário; 
 		 * 2. Inverta a posicao da String; 
 		 * 3. Converter para inteiro.
 		 **/
@@ -15,9 +16,9 @@ public class DesafioMap {
 		List<Integer> num = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 		num.stream()
-			.map(Convert.convertBinario)
-			.map(Convert.inverter)
-			.map(Convert.reverter)
+			.map(Convert.convertBinario) 	//1.
+			.map(Convert.inverter)			//2.
+			.map(Convert.reverter)			//3.
 			.forEach(Convert.print);
 	}
 
