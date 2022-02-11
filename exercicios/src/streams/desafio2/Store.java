@@ -17,10 +17,17 @@ public class Store {
 		List<Product> products = Arrays.asList(prod1,prod2,prod3,prod4,prod5,prod6,prod7,prod8);
 		
 		System.out.println("** Free Delivery **");
-		products.stream().filter(LambdasDesafio2.delivery).map(LambdasDesafio2.msg).forEach(LambdasDesafio2.print);
-		
+		products.stream()
+				.filter(LambdasDesafio2.delivery)
+				.map(LambdasDesafio2.msg)
+				.forEach(LambdasDesafio2.print);
+					
 		System.out.println("\n ** OFF 30% **");
-		products.stream().filter(LambdasDesafio2.discount).map(LambdasDesafio2.msg).forEach(LambdasDesafio2.print);
+		products.stream()
+				.filter(LambdasDesafio2.discount)
+				.map(LambdasDesafio2.msg)
+				.forEach(LambdasDesafio2.print);
+		
 		System.out.println("\n==============================");
 		System.out.println("\n ** COMBO **");
 		products.stream()
