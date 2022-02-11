@@ -4,8 +4,6 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
-
-
 public class Convert {
 	//imprimir na tela
 	public final static Consumer<Integer> print = System.out::println;
