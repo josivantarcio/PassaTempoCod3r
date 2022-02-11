@@ -15,11 +15,11 @@ public class Concessionaria {
 		List<Estoque> stock = Arrays.asList(car0, car1, car2, car3, car4);
 
 		stock.stream()
-			.filter(Lambdas.newTires)
-			.filter(Lambdas.since)
-			.filter(Lambdas.price)
-			.map(Lambdas.msg)
-			.forEach(Lambdas.printing);
+			.filter(Lambdasdesafio1.newTires)
+			.filter(Lambdasdesafio1.since)
+			.filter(Lambdasdesafio1.price)
+			.map(Lambdasdesafio1.msg)
+			.forEach(Lambdasdesafio1.printing);
 
 	}
 }

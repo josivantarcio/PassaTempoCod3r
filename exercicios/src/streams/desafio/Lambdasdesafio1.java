@@ -4,7 +4,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class Lambdas {
+public class Lambdasdesafio1 {
 	//if the tires are new
 	public static final Predicate<Estoque> newTires = t -> (t.isNewTires() == false);
 	
