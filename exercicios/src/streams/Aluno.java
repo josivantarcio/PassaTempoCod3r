@@ -21,5 +21,8 @@ public class Aluno {
 		return value;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return this.getName() + " possui nota: " + this.getValue();
+	}
 }
