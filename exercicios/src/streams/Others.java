@@ -2,11 +2,7 @@ package streams;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.BinaryOperator;
 import java.util.function.Function;
-import java.util.function.Predicate;
-
-import lambdas.Predicado;
 
 public class Others {
 	public static void main(String[] args) {
