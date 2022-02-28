@@ -14,8 +14,6 @@ public class TestRunTimeException {
 			System.out.println(e.getMessage());
 		}
 		
-		
-		
 		System.out.println("the end");
 	}
 }
