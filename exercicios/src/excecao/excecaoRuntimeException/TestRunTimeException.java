@@ -10,7 +10,7 @@ public class TestRunTimeException {
 			Validator.studant(aluno);
 		} catch (ValidValueException e) {
 			System.out.println(e.getMessage());
-		} catch (ValidNameException e) {
+		} catch (ValidNameException e){
 			System.out.println(e.getMessage());
 		}
 		System.out.println("the end");
