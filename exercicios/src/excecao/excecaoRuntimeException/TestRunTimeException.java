@@ -13,7 +13,6 @@ public class TestRunTimeException {
 		} catch (ValidNameException e) {
 			System.out.println(e.getMessage());
 		}
-		
 		System.out.println("the end");
 	}
 }
