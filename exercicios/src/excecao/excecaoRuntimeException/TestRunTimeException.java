@@ -3,6 +3,7 @@ package excecao.excecaoRuntimeException;
 import streams.Aluno;
 
 public class TestRunTimeException {
+
 	public static void main(String[] args) {
 
 		try {
