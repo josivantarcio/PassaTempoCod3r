@@ -8,7 +8,9 @@ public class TestRunTimeException {
 		try {
 			Aluno aluno = new Aluno("João", 5);
 			Validator.studant(aluno);
-		} catch (ValidValueException | ValidNameException e) {
+			
+			Validator.studant(null);
+		} catch (ValidValueException | ValidNameException | IllegalArgumentException e) {
 			System.out.println(e.getMessage());
 		}
 
