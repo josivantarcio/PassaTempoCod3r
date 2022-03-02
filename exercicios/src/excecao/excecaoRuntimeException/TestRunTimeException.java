@@ -8,9 +8,7 @@ public class TestRunTimeException {
 		try {
 			Aluno aluno = new Aluno("João", 5);
 			Validator.studant(aluno);
-		} catch (ValidValueException e) {
-			System.out.println(e.getMessage());
-		} catch (ValidNameException e) {
+		} catch (ValidValueException | ValidNameException e) {
 			System.out.println(e.getMessage());
 		}
 
