@@ -1,0 +1,490 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio",
+            "request": "launch",
+            "mainClass": "arrays.Exercicio",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio2",
+            "request": "launch",
+            "mainClass": "arrays.Exercicio2",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio3",
+            "request": "launch",
+            "mainClass": "arrays.Exercicio3",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConjuntoBaguncado",
+            "request": "launch",
+            "mainClass": "colecoes.ConjuntoBaguncado",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConjuntoOrdenado",
+            "request": "launch",
+            "mainClass": "colecoes.ConjuntoOrdenado",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fila",
+            "request": "launch",
+            "mainClass": "colecoes.Fila",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hash",
+            "request": "launch",
+            "mainClass": "colecoes.Hash",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lista",
+            "request": "launch",
+            "mainClass": "colecoes.Lista",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mapa",
+            "request": "launch",
+            "mainClass": "colecoes.Mapa",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pilha",
+            "request": "launch",
+            "mainClass": "colecoes.Pilha",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioPrimeiroTrauma",
+            "request": "launch",
+            "mainClass": "desafios.d1.DesafioPrimeiroTrauma",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jantar",
+            "request": "launch",
+            "mainClass": "desafios.d1.Jantar",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Notas",
+            "request": "launch",
+            "mainClass": "desafios.d2.Notas",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch DesafioMap",
+            "request": "launch",
+            "mainClass": "desafios.d3.DesafioMap",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Basico",
+            "request": "launch",
+            "mainClass": "excecao.Basico",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChecadaVsNaoChecada",
+            "request": "launch",
+            "mainClass": "excecao.ChecadaVsNaoChecada",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Finally",
+            "request": "launch",
+            "mainClass": "excecao.Finally",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRunTimeException",
+            "request": "launch",
+            "mainClass": "excecao.excecaoException.TestRunTimeException",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRunTimeException(1)",
+            "request": "launch",
+            "mainClass": "excecao.excecaoRuntimeException.TestRunTimeException",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio01",
+            "request": "launch",
+            "mainClass": "exercicios.Exercicio01",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio02",
+            "request": "launch",
+            "mainClass": "exercicios.Exercicio02",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio03",
+            "request": "launch",
+            "mainClass": "exercicios.Exercicio03",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio04",
+            "request": "launch",
+            "mainClass": "exercicios.Exercicio04",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio05",
+            "request": "launch",
+            "mainClass": "exercicios.Exercicio05",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Teste3",
+            "request": "launch",
+            "mainClass": "exercicios.Teste3",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Equals",
+            "request": "launch",
+            "mainClass": "exercicios.classes.Equals",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch teste1",
+            "request": "launch",
+            "mainClass": "exercicios.teste1",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch teste2",
+            "request": "launch",
+            "mainClass": "exercicios.teste2",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aritmetico",
+            "request": "launch",
+            "mainClass": "fundamento.Aritmetico",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Condicionais",
+            "request": "launch",
+            "mainClass": "fundamento.Condicionais",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch MediaSalario",
+            "request": "launch",
+            "mainClass": "fundamento.MediaSalario",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadoresLogicos",
+            "request": "launch",
+            "mainClass": "fundamento.OperadoresLogicos",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculadora1",
+            "request": "launch",
+            "mainClass": "lambdas.Calculadora1",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculadora2",
+            "request": "launch",
+            "mainClass": "lambdas.Calculadora2",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculadora3",
+            "request": "launch",
+            "mainClass": "lambdas.Calculadora3",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculadora4",
+            "request": "launch",
+            "mainClass": "lambdas.Calculadora4",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Consumidor",
+            "request": "launch",
+            "mainClass": "lambdas.Consumidor",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Desafio",
+            "request": "launch",
+            "mainClass": "lambdas.Desafio",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Desafio2",
+            "request": "launch",
+            "mainClass": "lambdas.Desafio2",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Foreach",
+            "request": "launch",
+            "mainClass": "lambdas.Foreach",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fornecedor",
+            "request": "launch",
+            "mainClass": "lambdas.Fornecedor",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Funcao",
+            "request": "launch",
+            "mainClass": "lambdas.Funcao",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadorBinario",
+            "request": "launch",
+            "mainClass": "lambdas.OperadorBinario",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch OperadorUnario",
+            "request": "launch",
+            "mainClass": "lambdas.OperadorUnario",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Predicado",
+            "request": "launch",
+            "mainClass": "lambdas.Predicado",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch PredicadoComposicao",
+            "request": "launch",
+            "mainClass": "lambdas.PredicadoComposicao",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch CarroTeste",
+            "request": "launch",
+            "mainClass": "oo.composicao.CarroTeste",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch CompraTeste",
+            "request": "launch",
+            "mainClass": "oo.composicao.CompraTeste",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch CursoTeste",
+            "request": "launch",
+            "mainClass": "oo.composicao.CursoTeste",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concessionaria",
+            "request": "launch",
+            "mainClass": "oo.composicao.concessionaria.Concessionaria",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComprasTeste",
+            "request": "launch",
+            "mainClass": "oo.composicao.desafio.ComprasTeste",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch SistemaDesafio",
+            "request": "launch",
+            "mainClass": "oo.composicao.desafioAlunoCampeao.SistemaDesafio",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jogo",
+            "request": "launch",
+            "mainClass": "oo.heranca.desafio.teste.Jogo",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteDrive",
+            "request": "launch",
+            "mainClass": "oo.heranca.desafio.teste.TesteDrive",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Jantar(1)",
+            "request": "launch",
+            "mainClass": "oo.polimofismo.Jantar",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComerTeste",
+            "request": "launch",
+            "mainClass": "oo.polimofismo.desafio.ComerTeste",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch CriandoStreams",
+            "request": "launch",
+            "mainClass": "streams.CriandoStreams",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Filter",
+            "request": "launch",
+            "mainClass": "streams.Filter",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch ImprimindoObjetos",
+            "request": "launch",
+            "mainClass": "streams.ImprimindoObjetos",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mapa(1)",
+            "request": "launch",
+            "mainClass": "streams.Mapa",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Match",
+            "request": "launch",
+            "mainClass": "streams.Match",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinMax",
+            "request": "launch",
+            "mainClass": "streams.MinMax",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Others",
+            "request": "launch",
+            "mainClass": "streams.Others",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reduce1",
+            "request": "launch",
+            "mainClass": "streams.Reduce1",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reduce2",
+            "request": "launch",
+            "mainClass": "streams.Reduce2",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch TesteMedia",
+            "request": "launch",
+            "mainClass": "streams.TesteMedia",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Concessionaria(1)",
+            "request": "launch",
+            "mainClass": "streams.desafio.Concessionaria",
+            "projectName": "exercicios"
+        },
+        {
+            "type": "java",
+            "name": "Launch Store",
+            "request": "launch",
+            "mainClass": "streams.desafio2.Store",
+            "projectName": "exercicios"
+        }
+    ]
+}
